@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek's Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+
+</head>
+
+<body>
+    <!-- This will be the nav bar that is standard across all three html files -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 0, 0)">
+            <!-- adds a h1 into the nav bar to display my name -->
+            <h1>Derek D'Esposito</h1>
+            <!-- sets up a toggle drop down for when the page is sized down -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto" style="background-color: black;">
+                    <!-- each link to move through the html files and view each page -->
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!-- This is the container that will hold my projects -->
+    <div class="container" id="myProjects" style="background-color: white;">
+        <!-- Each row will have two photos that link to the actual project made -->
+        <div class="row">
+            <!-- This column is up to date with its photo and link -->
+            <div class="col-sm-6">
+                <a href="https://derekdespo.github.io/HW_code_refactor/">
+                    <img src="assets/Refactored.png" alt="Refactored Horiseon Homepage">
+                    <div class="text-block">
+                        <h4>Code Refactor</h4>
+                    </div>
+                </a>
+            </div>
+            <!-- this column and the following will need to eventually add a photo and a link inside of an 'a href' -->
+            <div class="col-sm-6">
+                <a href="https://derekdespo.github.io/JS-Password-Generator/">
+                    <img src="https://user-images.githubusercontent.com/65831812/84559772-a43e1900-ad0b-11ea-8447-a06ce4bcdf2b.png"
+                        alt="My password generator">
+                    <div class="text-block">
+                        <h4>Password Generator</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="https://derekdespo.github.io/Coding-Quiz/">
+                    <img src="assets/code-quiz.png" alt="My coding quiz">
+                    <div class="text-block">
+                        <h4>Coding Quiz</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a href="https://derekdespo.github.io/Daily-Planner/">
+                    <img src="assets/day-planner.png" alt="My work day planner">
+                    <div class="text-block">
+                        <h4>Day Planner</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="https://derekdespo.github.io/Weather-Dashboard/">
+                    <img src="assets/weather.png" alt="My weather generator">
+                    <div class="text-block">
+                        <h4>Weather Dashboard</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a href="https://wleondike.github.io/streamJunkie/">
+                    <img src="https://github.com/WLeondike/streamJunkie/blob/master/assets/images/screenshot.png?raw=true"
+                        alt="My first group project with APIs">
+                    <div class="text-block">
+                        <h4>Web Application Group Project</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- the footer that will be standard across each page -->
+
+    <footer>
+        <h6>~ Copyright © 2020 ~</h6>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

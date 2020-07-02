@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Derek</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- This will be the nav bar that is standard across all three html files -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+            <!-- adds a h1 into the nav bar to display my name -->
+            <h1>Derek D'Esposito</h1>
+            <!-- sets up a toggle drop down for when the page is sized down -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto" style="background-color: black;">
+                    <!-- each link to move through the html files and view each page -->
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+
+
+<!-- This container will hold a form  -->
+    <div class="container bg-light" id="input-form">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <!-- the form title -->
+                <h2>Contact</h2>
+                <hr>
+                <form>
+                    <!-- a place to enter your name -->
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="your name">
+                    </div>
+                    <!-- a place to enter your email -->
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <!-- a place to leave a message -->
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Send me a message!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- this button will link to my email adress for someone to send a message -->
+                    <div class="form-group">
+                        <a href="mailto:derekdespo@icloud.com" class="btn btn-secondary btn-lg active" role="button"
+                            aria-pressed="true">Send</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- the footer that will be standard across each page -->
+   
+        <footer>
+            <h6>~ Copyright © 2020 ~</h6>
+
+        </footer>
+   
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

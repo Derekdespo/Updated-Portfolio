@@ -1,0 +1,21 @@
+/* affects the img elements on the portfolio page */
+img {
+    float: none;
+  margin: 25%;
+  z-index: -1;
+  height: 250px;
+  width: 250px;
+}
+
+
+/* aligns the columns on the portfolio page */
+.col-sm-6 {
+    text-align: center;
+}
+
+#myProjects {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+}
+
